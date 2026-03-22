@@ -1,8 +1,7 @@
-# Speech Emotion Recognition — Windows Compatible Requirements
-# Tested on Python 3.10, 3.11, 3.12 on Windows
-# Install: pip install -r requirements.txt
+# Speech Emotion Recognition - Hugging Face Spaces
+# Python 3.11 on Docker
 
-tensorflow-cpu==2.15.0
+tensorflow-cpu==2.16.1
 librosa==0.10.1
 numpy==1.26.4
 scikit-learn==1.4.2
@@ -13,3 +12,4 @@ flask-cors==4.0.0
 werkzeug==2.3.7
 soundfile==0.12.1
 audioread==3.0.1
+gunicorn==21.2.0
